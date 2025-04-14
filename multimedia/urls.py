@@ -6,5 +6,5 @@ router = routers.DefaultRouter()
 router.register(r'multimedia', views.MultimediaView, 'multimedia')
 
 urlpatterns = [
-    path("api/", include(router.urls))
+    path("api/", include(router.urls)),
 ]
